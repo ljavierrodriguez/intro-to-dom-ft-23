@@ -93,3 +93,14 @@ padre.removeChild(pDel)
 
 let img = document.querySelector('img')
 img.src = "https://picsum.photos/id/666/300/300"
+
+
+let ul = document.querySelector('ul');
+
+console.log(ul.childNodes)
+
+
+let test = document.querySelector('.test');
+console.log(test.childNodes)
+
+console.log(test.children)
